@@ -1,0 +1,209 @@
+:root {
+--brand-color: #d9adad;
+--primary-font: 'Space Mono', monospace;
+--background-image: linear-gradient(#ad9d9d18, #ad9d9d46); 
+/*  Linear gradient color terra linear-gradient(#fcf9f44f,#c2b0920e); */
+/* Sfumatura grigia linear-gradient(#ad9d9d09,#83838313);  */
+--headline-color: black;
+--subhead-color: dimgray;
+--secondary-font: 'Montserrat', sans-serif;
+--bold-font:'Monofett', cursive;
+--font-overpass: 'Overpass Mono', monospace; /* angular, light 300, regular 400, semi-bold 600, bold 700; great fit with Raleway,  PT Sans, Monsterrat, Open Sans, Lato, Roboto */
+--font-cutive: 'Cutive Mono', monospace; /*  very thin */
+
+--button-color: black;
+--button-background-color:white;
+--button-border-radius: 3px;
+--button-border: 1px solid black;
+--button-text-decoration: none;
+--button-padding: 10px 20px;
+--button-text-align: center;
+
+}
+
+
+
+body {
+font-family: var(--primary-font);
+background-image: var(--background-image);
+
+
+}
+
+h1{
+padding-top: 170px;
+padding-left: 90px;
+font-size:85px;
+line-height:120px;
+font-family: var(--font-spacemono);
+font-weight: 300;
+margin-bottom:150px;
+
+}
+
+nav {
+font-family: 'Montserrat', sans-serif;}
+
+.headline {
+font-weight: 500;
+font-size: 32px;
+
+}
+
+.maxi-headline {
+font-weight: 500;
+font-size: 52px;
+
+}
+
+h3{
+font-weight: 300;
+font-family: 'Cutive Mono', monospace;
+font-size: 25px;
+}
+
+
+.triangle-left {
+  height: 0;
+  width: 0;
+  border-left: 100px solid #ad9d9d;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+  opacity: 60%;
+}
+
+
+.triangle-right {
+  height: 0;
+  width: 0;
+  border-right: 100px solid #ad9d9d;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+  margin-right:0;
+  margin-left:auto;
+  opacity: 60%;
+}
+
+.triangle-down {
+  width: 0;
+	height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid  #ad9d9d;
+  opacity: 60%;
+
+
+}
+
+/* Img clip-path maker: https://bennettfeely.com/clippy/ */
+.profile-img {
+  width: 310px;
+  height: 310px;
+  border-style:solid;
+  border-width:3px;
+  border-color: #ad9d9d18;
+  box-shadow: 30px 30px #ad9d9d46;
+ 
+}
+
+.highlighted-word {
+color: white;
+background-color: #d9adad;
+padding-left: 13px;
+padding-right:13px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.social-icon, .email-link {
+color:#838383;
+text-decoration: none;
+}
+
+.social-icon:hover, .email-link:hover{
+color:#d9adad;
+text-decoration: none;
+}
+
+.footer {
+text-align: center;
+color: #838383;
+font-size: 12px;
+margin:95px;
+}
+
+.heart {
+font-weight: bolder;
+color: #d9adad;
+font-size:20px;
+}
+
+.contact-info, .contact-info a {
+font-size: large;
+font-family: var(--primary-font);
+    
+}
+
+.intro-cv {
+padding-bottom:100px;
+}
+
+.my-cv {
+font-family: var(--secondary-font);
+line-height: 30px;
+color: dimgray;
+box-shadow: 5px 5px #ad9d9d46;
+border-radius: 35px;
+
+}
+
+.job-descr {
+padding-left: 50px;
+padding-right:50px;
+padding-bottom: 50px;}
+
+.tools {
+padding-top:160px;
+padding-bottom:160px;
+font-family: var(--primary-font);
+}
+
+.contacts {
+padding-top:20px;
+margin-top:20px;}
+
+.big-title {
+text-transform: uppercase;
+font-size: x-large;
+font-size: 30px;
+color: rgba(0,0,0,.07);
+font-family: var(--secondary-font);
+font-size: 50px;
+font-weight: 900;
+letter-spacing: 5px;
+text-decoration: none;
+
+}
+
+.big-title:hover {
+color: #d9adad;
+}
+
+.back-to-top {
+
+  
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99;
+  border: none;
+  outline: none;  
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  
+
+}
