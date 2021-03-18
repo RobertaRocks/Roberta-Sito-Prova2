@@ -95,6 +95,9 @@ padding-right: 3px;
  h2 {
 text-align: center;
 }
+.contacts h3, .contacts a, .contacts-icons {
+text-align: center;
+}
 }
 
 .profile-img {
@@ -182,7 +185,69 @@ padding-right:13px;
 font-family: 'Montserrat', sans-serif;
 }
 
+.contacts {
+padding-left:10px;
+padding-right:10px;
+padding-top:20px;
+margin-top:20px;
+text-align: right;
 
+}
+
+
+
+.intro-cv {
+padding-bottom:100px;
+}
+
+.my-cv {
+font-family: var(--secondary-font);
+line-height: 30px;
+color: dimgray;
+box-shadow: 5px 5px #ad9d9d46;
+border-radius: 35px;
+}
+
+.mb-logo {
+margin-bottom:-45px;
+padding-top:0px;
+}
+
+.year-company{
+opacity: 65%;
+}
+
+
+.job-descr {
+margin-top:-20px;
+padding-top:0px;
+padding-left: 10px;
+padding-right:10px;
+padding-bottom: 10px;}
+
+.tools {
+padding-top:160px;
+padding-bottom:160px;
+font-family: var(--primary-font);
+}
+
+
+.big-title {
+text-transform: uppercase;
+font-size: x-large;
+color: rgba(0,0,0,.07);
+font-family: var(--secondary-font);
+font-size: 50px;
+font-weight: 900;
+letter-spacing: 5px;
+text-decoration: none;
+text-align: center;
+
+}
+
+.big-title:hover {
+color: #d9adad;
+}
 
 .social-icon, .email-link {
 color:#838383;
@@ -205,70 +270,6 @@ margin:95px;
 font-weight: bolder;
 color: #d9adad;
 font-size:20px;
-}
-
-.contact-info, .contact-info a {
-font-size: large;
-font-family: var(--primary-font);
-    
-}
-
-.intro-cv {
-padding-bottom:100px;
-}
-
-.my-cv {
-font-family: var(--secondary-font);
-line-height: 30px;
-color: dimgray;
-box-shadow: 5px 5px #ad9d9d46;
-border-radius: 35px;
-
-}
-.mb-logo {
-margin-bottom:-45px;
-padding-top:0px;
-}
-
-.year-company{
-
-opacity: 65%;
-}
-
-
-.job-descr {
-margin-top:-20px;
-padding-top:0px;
-padding-left: 10px;
-padding-right:10px;
-padding-bottom: 10px;}
-
-.tools {
-padding-top:160px;
-padding-bottom:160px;
-font-family: var(--primary-font);
-}
-
-.contacts {
-padding-top:20px;
-margin-top:20px;}
-
-.big-title {
-text-transform: uppercase;
-font-size: x-large;
-color: rgba(0,0,0,.07);
-font-family: var(--secondary-font);
-font-size: 50px;
-font-weight: 900;
-letter-spacing: 5px;
-text-decoration: none;
-text-align: center;
-
-
-}
-
-.big-title:hover {
-color: #d9adad;
 }
 
 .back-to-top {
