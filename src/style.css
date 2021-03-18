@@ -2,24 +2,17 @@
 --brand-color: #d9adad;
 --primary-font: 'Space Mono', monospace;
 --background-image: linear-gradient(#ad9d9d18, #ad9d9d46); 
-
 --headline-color: black;
 --subhead-color: dimgray;
 --secondary-font: 'Montserrat', sans-serif;
---bold-font:'Monofett', cursive;
 --font-overpass: 'Overpass Mono', monospace; /* angular, light 300, regular 400, semi-bold 600, bold 700; great fit with Raleway,  PT Sans, Monsterrat, Open Sans, Lato, Roboto */
---font-cutive: 'Cutive Mono', monospace; /*  very thin */
-
---button-color: black;
---button-background-color:white;
+--button-color: white;
+--button-background-color: #ad9d9d;
 --button-border-radius: 3px;
---button-border: 1px solid black;
 --button-text-decoration: none;
 --button-padding: 10px 20px;
 --button-text-align: center;
-
 }
-
 
 
 body {
@@ -32,29 +25,88 @@ padding:0px;
 .container-fluid {
 margin:0px;
 padding:0px;
-
 }
-
-h1{
-padding-top: 170px;
-margin-left: 90px;
-font-size:85px;
-line-height:120px;
-font-family: var(--primary-font);
-font-weight: 300;
-margin-bottom:150px;
-}
-
-@media (max-width: 576px ) {
- h1 {
-font-size:35px;
-line-height:70px;
-margin-left: 50px;
-margin-bottom:50px;
-} }
 
 nav {
 font-family: 'Montserrat', sans-serif;}
+
+.homepage-hero {
+padding-top: 170px;
+padding-left: 90px;
+padding-bottom:150px;}
+
+.homepage-hero h1 {
+font-size:85px;
+line-height:120px;
+font-weight: 300;
+}
+.button-container {
+padding-top: 20px;
+}
+
+.button {
+color: var(--button-color);
+background-color: var(--button-background-color);
+border-radius: var(--button-border-radius);
+text-decoration: var(--button-text-decoration);
+padding: var(--button-padding);
+text-align: var(--button-text-align);
+transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+box-shadow: 5px 5px #ad9d9d46;
+font-size: 20px;
+font-family: var(--secondary-font);
+}
+
+.button:hover {
+background-color: #838383;
+color: white;
+}
+
+@media (max-width: 576px ) {
+
+
+
+.homepage-hero {
+padding-top: 100px;
+padding-left: 20px;
+padding-bottom:80px;}
+
+.homepage-hero h1 {
+font-size:35px;
+line-height:70px;
+margin-left: 50px;
+margin-bottom:5px;
+text-align: left;} 
+
+.headline {
+text-align: center;}
+
+body {
+text-align: justify;}
+
+h2, h3 {
+padding-left: 3px;
+padding-right: 3px;
+}
+ h2 {
+text-align: center;
+}
+}
+
+.profile-img {
+width: auto; 
+height: auto;
+max-width: 310px;
+max-height: 310px;
+border-radius: 2px;
+box-shadow: 25px 25px #ad9d9d46; 
+}
+
+
 
 .headline {
 font-weight: 500;
@@ -68,13 +120,23 @@ font-size: 42px;
 line-height: 50px;
 padding-top:15px;
 padding-bottom:15px;
-text-align: center;;
+text-align: center;
+}
+.maxi-headline-left {
+font-weight: 500;
+font-size: 42px;
+line-height: 50px;
+padding-top:15px;
+padding-bottom:15px;
+padding-left: 20px;
 }
 
-h3{
+h3 {
 font-weight: 300;
 font-family: 'Cutive Mono', monospace;
 font-size: 25px;
+padding-right:20px;
+padding-left: 20px;
 }
 
 
@@ -110,17 +172,6 @@ font-size: 25px;
   opacity: 60%;
 
 
-}
-
-/* Img clip-path maker: https://bennettfeely.com/clippy/ */
-.profile-img {
-  width: 310px;
-  height: 310px;
-  border-style:solid;
-  border-width:3px;
-  border-color: #ad9d9d18;
-  box-shadow: 30px 30px #ad9d9d46;
- 
 }
 
 .highlighted-word {
@@ -231,5 +282,4 @@ color: #d9adad;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   
-
 }
